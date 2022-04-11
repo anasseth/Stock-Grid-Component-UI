@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+.TableContainer {
+    margin: auto;
+    width: fit-content;
+    color: white;
+    margin-top: 60px;
+    background-color: rgba(10, 21, 64, 255);
+}
+
+.hide {
+    visibility: hidden;
+    display: none;
+}
+
+.rightIcon {
+    margin-right: 10px;
+}
+
+.leftDivIcon {
+    float: right;
+}
+
+.leftIcon {
+    font-size: 14px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.LinKContainer {
+    margin-top: 30px;
+    /* width: 90%; */
+    padding-bottom: 40px;
+}
+
+.arrowUpLong {
+    margin-left: 10px;
+    vertical-align: middle;
+    color: #9b9cf1;
+}
+
+.ComponentHeading {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    background-color: #202348;
+    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 850px;
+    text-align: left;
+    margin: auto;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+td {
+    /* width: 8%; */
+    padding: 7px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-weight: 500;
+    border-right: 1px solid rgb(75, 74, 74);
+}
+
+table {
+    margin: auto;
+    margin-top: 20px;
+}
+
+.heading {
+    color: #f8351b;
+    font-weight: 500;
+}
+
+tr:nth-child(odd) {
+    background-color: transparent;
+}
+
+tr:nth-child(even) {
+    /* background-color: #061731; */
+    background-color: rgba(17, 28, 69, 255);
+}
+
+button {
+    height: 40px;
+    width: 170px;
+    font-weight: 700;
+    font-size: 11px;
+    color: rgba(1, 7, 33, 255);
+    text-align: center;
+    border: 1px solid #84868f;
+    background-color: transparent;
+    color: white;
+    transition-duration: 0.3s;
+}
+
+button:hover {
+    background-color: #aba9ff;
+    border: 1px solid #061731;
+    transition-duration: 0.3s;
+    color: #061731;
+}
+
+button.active {
+    background-color: #aba9ff;
+    border: 1px solid #aba9ff;
+    transition-duration: 0.3s;
+    color: #061731;
+}
+
+.applyBorder {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.applyBorder2 {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
